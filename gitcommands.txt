@@ -5,11 +5,13 @@ git status [ list all untracked files]
 
 git add -A [adding all changes to staging Area]
 
-git commit -m "message" [ staged files to local repository]
+git commit -m "any message" [ staged files to local repository]
 
-git remote add service https://github.com/luminartechnolabkochi/ServiceGuru.git
+git remote add service https://github.com/luminartechnolabkochi/ServiceGuru.git............this one only for first time . it is for adding your git repositary to the project
 
-git push remotename branch [ local repository changes remote repository]
+git remote -v [to see remote name]
+
+git push ("remotename") ("branchname") [ local repository changes remote repository]
 
 git pull [remote repo changes local repo]
 
