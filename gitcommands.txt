@@ -11,7 +11,9 @@ git remote add service https://github.com/luminartechnolabkochi/ServiceGuru.git.
 
 git remote -v [to see remote name]
 
-git push ("remotename") ("branchname") [ local repository changes remote repository]
+git branch [to know your branch name (green color one is the current branch active)]
+
+git push ("remotename") ("branchname")............... [ local repository changes remote repository]
 
 git pull [remote repo changes local repo]
 
