@@ -48,6 +48,10 @@ class Customer(models.Model):
     def work_total(self):
 
         return Work.objects.filter(customer=self).values("amount").aggregate(total=Sum("amount"))['total']
+    
+    @property
+    def work(self):
+        return Work.objects.filter(customer=self)
 
     def __str__(self) -> str:
 
